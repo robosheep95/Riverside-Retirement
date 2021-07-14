@@ -12,13 +12,13 @@
     @include heading-font;
   }
   .navbar-brand {
-    color: $primary;
+    color: $gray-100;
     @include script-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: darken(white, 25%);
     }
   }
   .navbar-nav {
@@ -32,7 +32,7 @@
         @include heading-font;
         &.active,
         &:hover {
-          color: $primary;
+          color: darken(white, 25%);
         }
       }
     }
@@ -46,7 +46,7 @@
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: $navbar-transparent;
     .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;

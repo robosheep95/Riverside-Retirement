@@ -16,6 +16,7 @@ header.masthead {
       line-height: 22px;
       margin-bottom: 25px;
       @include serif-font;
+      background-color: $navbar-transparent;
     }
     .intro-heading {
       font-size: 50px;
@@ -23,6 +24,7 @@ header.masthead {
       line-height: 50px;
       margin-bottom: 25px;
       @include heading-font;
+      background-color: $navbar-transparent;
     }
   }
 }

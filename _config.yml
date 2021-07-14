@@ -14,12 +14,12 @@
 #theme: jekyll-agency
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/agency-jekyll-theme-starter" # the subpath of your site, e.g. /blog
+url    : "https://riversideretirement.bz" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
 
 title      : Riverside Retirement Village
 email      : info@riversideretirement.bz #this is also the email contact forms will go to
-description: "Agency Bootstrap theme converted to a Jekyll theme, plus new features: Google Analytics, Markdown support, custom pages, and more!"
+description: "Riverside Retirement Village"
 author     : Taylor Scafe
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg

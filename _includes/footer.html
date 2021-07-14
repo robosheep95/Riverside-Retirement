@@ -5,19 +5,9 @@
         <div class="col-md-4">
           <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
         </div>
-		<!-- Social Media -->
+		<!-- Logo -->
         <div class="col-md-4">
-          <ul class="list-inline social-buttons">
-		  {% for link in site.data.sitetext[site.locale].footer.social  %}
-            <li class="list-inline-item">
-			  {% if link.url %}
-              <a href="{{ link.url }}">
-                {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
-              </a>
-			  {% endif %}
-            </li>
-			{% endfor %}
-          </ul>
+          <span><img src= "assets/img/RiversideLogo.svg" alt="Logo" width="75%"/></span>
         </div>
 		<!-- Legal -->
         <div class="col-md-4">
