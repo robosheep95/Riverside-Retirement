@@ -18,7 +18,7 @@ url    : "https://riversideretirement.bz" # the base hostname & protocol for you
 baseurl: "/" # the subpath of your site, e.g. /blog
 
 title      : Riverside Retirement Village
-email      : info@riversideretirement.bz #this is also the email contact forms will go to
+email      : info@riversidevillage.bz #this is also the email contact forms will go to
 description: "Riverside Retirement Village"
 author     : Taylor Scafe
 # logo:     #optional, defaults to site title
